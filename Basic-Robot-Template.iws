@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9a1fdf2-3fc2-42f0-a2b2-795e68ea91b5" name="Default" comment="Initial commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org.whsrobotics/commands/ExampleCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org.whsrobotics/subsystems/ExampleSubsystem.java" />
-      <change beforePath="$PROJECT_DIR$/Basic-Robot-Template.ipr" afterPath="$PROJECT_DIR$/Basic-Robot-Template.ipr" />
+    <list default="true" id="d9a1fdf2-3fc2-42f0-a2b2-795e68ea91b5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.runConfigurations/GradleRIO_Build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.runConfigurations/GradleRIO_Deploy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.runConfigurations/GradleRIO_Offline.xml" />
       <change beforePath="$PROJECT_DIR$/Basic-Robot-Template.iws" afterPath="$PROJECT_DIR$/Basic-Robot-Template.iws" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org.whsrobotics/robot/Robot.java" afterPath="$PROJECT_DIR$/src/main/java/org.whsrobotics/robot/Robot.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -66,6 +65,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view />
       </state>
     </system>
@@ -631,8 +633,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1642" />
-    <option name="y" value="-450" />
+    <option name="x" value="1936" />
+    <option name="y" value="-497" />
     <option name="width" value="1181" />
     <option name="height" value="877" />
   </component>
@@ -752,7 +754,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.GradleRIO Offline">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -821,6 +823,11 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.GradleRIO Build" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.GradleRIO Deploy" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.GradleRIO Offline" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -841,7 +848,7 @@
       <workItem from="1510167148670" duration="493000" />
       <workItem from="1514424727738" duration="3026000" />
       <workItem from="1514427878786" duration="887000" />
-      <workItem from="1514483037672" duration="444000" />
+      <workItem from="1514483037672" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1510167267143</created>
@@ -850,25 +857,31 @@
       <option name="project" value="LOCAL" />
       <updated>1510167267143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add templates and structure">
+      <created>1514495441214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514495441215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5643000" />
+    <option name="totallyTimeSpent" value="6662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1642" y="-450" width="1181" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="1936" y="-497" width="1181" height="877" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5029636" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5029636" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.4970364" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -899,7 +912,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add templates and structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add templates and structure" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
